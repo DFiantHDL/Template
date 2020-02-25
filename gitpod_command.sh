@@ -1,6 +1,6 @@
  #!/bin/bash
 
-export PATH=$PATH:/usr/local/openjdk-8/bin
+export PATH=$PATH:/usr/local/openjdk-11/bin
 
 source ./.metals/bloop_local/bash/bloop
 alias sbt=./.metals/sbt/bin/sbt
