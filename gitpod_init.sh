@@ -1,7 +1,7 @@
  #!/bin/bash
 
 CURRENT_DIR="${pwd}"
-export PATH=$PATH:/usr/local/openjdk-8/bin
+export PATH=$PATH:/usr/local/openjdk-11/bin
 
 curl -L https://github.com/scalacenter/bloop/releases/download/v1.4.0-RC1/install.py > ~/bloop_install.py
 python ~/bloop_install.py --dest ./.metals/bloop_local
