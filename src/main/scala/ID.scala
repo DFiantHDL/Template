@@ -5,7 +5,7 @@ class ID extends DFDesign:
   val y = UInt(8) <> OUT
   y := x.prev + 1
 
-@main def hello: Unit = 
+@main def hello: Unit =
   println("Hello, welcome to the DFHDL demo!")
   println("Printing the top:")
   val top = new ID
