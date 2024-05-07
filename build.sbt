@@ -1,10 +1,10 @@
-val scala3Version = "3.2.2"
-val dfhdlVersion = "0.2.12-SNAPSHOT"
+val scala3Version = "3.4.0"
+val dfhdlVersion  = "0.4.3"
 
 lazy val root = project
   .in(file("."))
   .settings(
-    name := "dfhdl_template",
+    name    := "dfhdl_template",
     version := "0.1.0",
     scalacOptions ++= Seq(
       "-deprecation", "-encoding", "UTF-8", "-feature", "-language:strictEquality",
